@@ -1,0 +1,22 @@
+{
+  "name": "nuxtWebb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.15.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.0.0",
+    "core-js": "^3.15.1",
+    "express": "^4.17.1",
+    "firebase": "^9.4.1",
+    "minisearch": "^3.1.0",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {}
+}
