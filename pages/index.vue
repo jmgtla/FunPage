@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{data}}</h1>
+    <h1>Skap</h1>
   </div>
 </template>
 
@@ -12,14 +12,14 @@ export default {
       data: [],
     };
   },
-  async mounted() {
-    console.log("wow");
-    const citiesRef = this.$fire.firestore.collection("Reviews");
-    const snapshot = await citiesRef.get();
-    snapshot.forEach((doc) => {
-      this.data.push(doc.data());
-    });
-  },
+  // async mounted() {
+  //   console.log("wow");
+  //   const citiesRef = this.$fire.firestore.collection("Reviews");
+  //   const snapshot = await citiesRef.get();
+  //   snapshot.forEach((doc) => {
+  //     this.data.push(doc.data());
+  //   });
+  // },
   methods: {},
 };
 </script>

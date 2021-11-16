@@ -40,36 +40,36 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/firebase',
+    // '@nuxtjs/firebase',
     '@nuxt/content'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  firebase: {
-    config: {
-      apiKey: 'AIzaSyDsF2uocryucjZlNFVZAxrPFFqxRSu0CIg',
-      authDomain: 'webreviews-cb91a.firebaseapp.com',
-      projectId: 'webreviews-cb91a',
-      storageBucket: 'webreviews-cb91a.appspot.com',
-      messagingSenderId: '552540050388',
-      appId: '1:552540050388:web:91ee0afc4e9dfbd400bc41',
-      measurementId: 'G-GN8Y0Y9MJ7'
-    },
-    services: {
-      auth: true,
-      firestore: true,
-      functions: true,
-      storage: true,
-      database: true,
-      //  messaging: true,
-      //  performance: true,
-      //analytics: true,
-      // remoteConfig: true
-    }
+  // firebase: {
+  //   config: {
+  //     apiKey: 'AIzaSyDsF2uocryucjZlNFVZAxrPFFqxRSu0CIg',
+  //     authDomain: 'webreviews-cb91a.firebaseapp.com',
+  //     projectId: 'webreviews-cb91a',
+  //     storageBucket: 'webreviews-cb91a.appspot.com',
+  //     messagingSenderId: '552540050388',
+  //     appId: '1:552540050388:web:91ee0afc4e9dfbd400bc41',
+  //     measurementId: 'G-GN8Y0Y9MJ7'
+  //   },
+  //   services: {
+  //     auth: true,
+  //     firestore: true,
+  //     functions: true,
+  //     storage: true,
+  //     database: true,
+  //     //  messaging: true,
+  //     //  performance: true,
+  //     //analytics: true,
+  //     // remoteConfig: true
+  //   }
 
-  },
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
